@@ -1,0 +1,5 @@
+
+.gallery{
+    background: lawngreen;
+    grid-template-columns: 1/8;
+}
