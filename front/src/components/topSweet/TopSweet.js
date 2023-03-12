@@ -12,13 +12,13 @@ const TopSweet = () => {
             </div>
             <div className='right'>
             <div className='right topMargin'>
-              <h2>Organgic Sweets</h2>
+              <h2 className='right-text'>Organgic Sweets</h2>
               <div className='socialIcon'>
-              <i class="fas fa-birthday-cake"></i>
-              <i class="fas fa-candy-cane"></i>
-              <i class="fas fa-apple-alt"></i>
+              <i id='apple' class="fas fa-apple-alt"></i>
+              <i id='birthday' class="fas fa-birthday-cake"></i>
+              <i id='cane' class="fas fa-candy-cane"></i>
               </div>
-              <p>Fresh locally grown Organgic Sweets. These sweets are farm to satisfaction</p>
+              <p>Fresh locally grown Organgic Sweets. These sweets are farm to satisfaction. We srive to provide the tastiest sweets made from fresh natural ingredients. </p>
               <button className='primary-btn'>
                 Order
               </button>

@@ -1,0 +1,19 @@
+
+
+.services{
+    border-radius: 25px;
+    margin-top: 40px;
+}
+.contain{
+    display: flex;
+}
+
+.boxes{
+    height: 400px;
+    width: 400px;
+    background: orange;
+}
+.imgs{
+    width: 100%;
+    height: 100%;
+}

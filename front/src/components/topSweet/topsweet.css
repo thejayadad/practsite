@@ -2,7 +2,8 @@
 .home{
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background: white;
+    border-radius: 25px;
 
 }
 
@@ -13,16 +14,13 @@
 
 }
 .left{
-    background: orchid;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
 
 }
-.right{
-    background: orchid;
-}
+
 .left img{
     object-fit: contain;
     width: 100%;
@@ -30,11 +28,63 @@
 
 .topMargin{
 display: inline-block;
-align-items: center;
-justify-content: center;
-height: 100%;
-width: 100%;
+margin-top: 50px;
+
 }
+.right-text{
+    font-size: 3rem;
+    color: #6185a8;
+}
+#birthday, #cane, #apple{
+    padding: 15px;
+    border-radius: 50%;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+
+
+}
+
+.socialIcon i:hover, #cane:hover, #apple:hover{
+    color: white;
+    border-radius: 1px soild white;
+}
+.fa-birthday-cake, #cane, #apple{
+    border: 1px solid pink;
+    color: pink;
+    margin-right: 10px;
+}
+
+
+button{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 60;
+    font-size: 15px;
+    transition: .5s;
+    cursor: pointer;
+}
+.primary-btn{
+    padding: 15px 40px;
+    background: pink;
+}
+.primary-btn:hover{
+    background: #f54ea2;
+    box-shadow: 0 13px 27px 0 rgb(245 78 162 / 25%);
+}
+.socialIcon{
+    margin: 20px 0;
+}
+
+.home p{
+    margin-bottom: 20px;
+    color: #6185a8;
+    line-height: 30px;
+}
+
 
 @media screen and (max-width: 768px){
     .box{
